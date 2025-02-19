@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "users/profile"
+  get "book1/index"
+  get "book1/show"
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   root "home#index"
