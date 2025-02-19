@@ -33,7 +33,7 @@ class Book1Controller < ApplicationController
 
   private
 
-  def set_book
+  def set_book1
     @book1 = Book1.find(params[:id])
   end
 end
